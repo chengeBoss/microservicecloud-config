@@ -1,5 +1,5 @@
 spring:
-    profilx:
+    profile:
       active: 
       - dev
         
@@ -11,7 +11,7 @@ server:
 spring: 
     application: 
         name: microservicecloud-config-client
-    profilx: dev
+    profile: dev
     
 eureka:
     client: 
@@ -26,7 +26,7 @@ server:
 spring: 
     application: 
         name: microservicecloud-config-client
-    profilx: test
+    profile: test
     
 eureka:
     client: 
